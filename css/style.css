@@ -7,7 +7,6 @@ body {
 }
 
 body {
-  text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -31,7 +30,6 @@ p {
 
 /* ----TITLE---- */
 #title {
-  text-align: left;
   padding: 3% 0;
 }
 
@@ -294,14 +292,11 @@ section {
   }
 
   .title-image {
-    display: none;
+    left: 0;
   }
 
   .title-desc {
     position: static;
-  }
-
-  #title {
     text-align: center;
   }
 
@@ -316,5 +311,13 @@ section {
 
   .topBtn {
     right: 5%;
+  }
+
+  .wrapper {
+    width: 70%;
+  }
+
+  .nav-link {
+    padding: 2%;
   }
 }

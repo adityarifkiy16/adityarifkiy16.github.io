@@ -35,3 +35,15 @@ setInterval(() => {
     $(topBtn).css("display", "none");
   }
 }, 1000);
+
+const bigTitle = $("#big-title");
+
+const smallDevice = window.matchMedia("(max-width: 700px)");
+
+smallDevice.onchange = (e) => {
+  if (e.matches) {
+    bigTitle.addClass("d-flex flex-column-reverse");
+  } else {
+    bigTitle.removeClass("d-flex flex-column-reverse");
+  }
+};
