@@ -33,7 +33,7 @@ p {
 
 /* ----TITLE---- */
 #title {
-  padding: 3% 0;
+  padding: 15% 0;
 }
 
 .project-title {
@@ -71,9 +71,6 @@ p {
 /* END TITLE */
 
 /* ----NAVBAR---- */
-.navbar {
-  padding: 0 0 7rem;
-}
 
 .navbar-brand {
   font-family: "Montserrat", sans-serif;
@@ -82,11 +79,11 @@ p {
 }
 
 .nav-item {
-  padding: 0 18px 0 18px;
+  padding: 0 10px 0 10px;
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /* END NAVBAR */
@@ -98,17 +95,26 @@ p {
 
 .topBtn {
   position: fixed;
+  font-weight: bold;
   bottom: 15%;
   right: 10%;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border: none;
   outline: none;
   background-color: rgb(236, 185, 18);
   color: white;
   cursor: pointer;
-  padding: 1rem;
-  border-radius: 4px;
+  padding: 0.5rem;
+  border-radius: 50%;
   display: none;
+  width: 40px;
+  height: 40px;
+}
+
+.topBtn i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* END BUTTON */
@@ -332,6 +338,7 @@ object.list-icon {
   }
 
   #title {
+    padding-top: 30%;
     padding-bottom: 30%;
   }
 
