@@ -1,3 +1,10 @@
+/* 
+  ----------------------------
+  ---ADITYA RIFKI YULIATAMA---
+  --adityarifkiy16.github.io--
+  ----------------------------
+*/
+
 html,
 body {
   width: 100%;
@@ -194,11 +201,9 @@ object.list-icon {
 .myskill:not(:last-child) {
   margin-bottom: 30px;
 }
+/* END SKILLS */
 
-.footer-icon {
-  margin: 5% 3%;
-}
-
+/* ---PROJECT--- */
 .porto-title {
   padding-bottom: 7%;
 }
@@ -230,8 +235,13 @@ object.list-icon {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+/* END PROJECT */
 
-/* END SKILLS */
+/* ---FOOTER--- */
+.footer-icon {
+  margin: 5% 3%;
+}
+/* END FOOTER */
 
 /* ----Animated Skill Bar */
 #html-bar {
